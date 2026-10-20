@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "projectID": 1728334,
+      "required": true,
+      "fileID": 9092522
+    }
+  ],
+  "author": "Local verification",
+  "overrides": "overrides",
+  "name": "RuntimeProbe CurseForge Wick Test",
+  "manifestType": "minecraftModpack",
+  "version": "test-only",
+  "manifestVersion": 1,
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "primary": true,
+        "id": "fabric-0.16.14"
+      }
+    ]
+  }
+}

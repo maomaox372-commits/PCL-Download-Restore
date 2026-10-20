@@ -1,0 +1,114 @@
+{
+  "testDate": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "targetSha256": "2FF3A197EDA8F7E9DF707A0CE910A4338D21E898359E09846938984E877A2A90",
+  "sourceSha256": "6B6E1260CB5A1D6A303855F1C60CAB3D0BC1AEBBA7E40A964180188B271E7386",
+  "jitModifiedMethods": 5,
+  "jitAllPassed": true,
+  "versionList": {
+    "official": true,
+    "state": "Finished",
+    "source": "Mojang 官方源"
+  },
+  "updateSetting": {
+    "actual": 3,
+    "method": "Settings.Get<int>(SystemSystemUpdate,null)"
+  },
+  "vanilla": {
+    "jarSha1MatchesOfficial": true,
+    "assetsBytes": 651845625.0,
+    "assetIndexSha1MatchesOfficial": true,
+    "librariesCountAfterPackTests": 72,
+    "librariesBytesAfterPackTests": 64746733.0,
+    "json": {
+      "path": "runtime-work/game/versions/RuntimeProbe-1.20.1/RuntimeProbe-1.20.1.json",
+      "bytes": 49384,
+      "sha256": "7F9A2FFE361D87ED3F1BF98F194A6B9BBB242425418A5FA0BBED8D47957070ED",
+      "sha1": "E9F2C4795516AD3B5FF75974F1935F8C0DB1253D"
+    },
+    "jar": {
+      "path": "runtime-work/game/versions/RuntimeProbe-1.20.1/RuntimeProbe-1.20.1.jar",
+      "bytes": 23028853,
+      "sha256": "56B71336D2B4FDFFD197F56595B0DA93E32A946F78F382A299B8F4B92758BB0F",
+      "sha1": "0C3EC587AF28E5A785C0B4A7B8A30F9A8F78F838"
+    },
+    "assetIndex": {
+      "path": "runtime-work/game/assets/indexes/5.json",
+      "bytes": 413067,
+      "sha256": "F59B7CFEF660F0FE3774F29C0998143A761FD0208F23A7C132A89906F482D45F",
+      "sha1": "50CE48459EB9E29836662862273D7B15D41C2C33"
+    },
+    "assetObjectsSha1Failures": [],
+    "version": "1.20.1",
+    "loader": "PCL.ModDownloadLib.McDownloadClientLoader",
+    "assetFilesCount": 3576,
+    "artifactLibrariesSha1Passed": 64,
+    "distinctAssetObjects": 3575,
+    "state": "Finished",
+    "requiredArtifactLibraries": 64,
+    "artifactLibrariesExcludedByPlatform": 24,
+    "vanillaLibrariesBytesBeforePacks": 60876077,
+    "libraryScope": "64 Windows-compatible artifact libraries checked; 24 Linux/macOS-only artifacts correctly excluded by manifest rules."
+  },
+  "modrinth": {
+    "modSha1MatchesOfficial": true,
+    "fixture": "runtime-modrinth-index.json",
+    "fabricVersion": "0.16.14",
+    "state": "Finished",
+    "instance": "RuntimeProbe-modrinth-094322",
+    "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+    "mod": {
+      "path": "runtime-work/game/versions/RuntimeProbe-modrinth-094322/mods/sodium-fabric-0.5.13+mc1.20.1.jar",
+      "bytes": 971552,
+      "sha256": "688C26029CE69F0B1F7CF936866656CA6723228AC46C4AEF5B5F793B1E6ABD22",
+      "sha1": "BCDBF37D9494E405CBA210D7A80ED58E756297B5"
+    }
+  },
+  "curseforge": {
+    "fixture": "runtime-curseforge-manifest.json",
+    "fileId": 9092522,
+    "projectId": 1728334,
+    "mod": {
+      "path": "runtime-work/game/versions/RuntimeProbe-curseforge-095050/mods/wick-1.0.1+mc1.20-1.20.1.jar",
+      "bytes": 100533,
+      "sha256": "F6F1E3E4277C7E53A955876E1E39FCED534F338C47AD197039C949340197A9AF",
+      "sha1": "E625B03C701DC9E24F6EC5EBE9D2AFFB5552A9A1"
+    },
+    "instance": "RuntimeProbe-curseforge-095050",
+    "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+    "fabricVersion": "0.16.14",
+    "state": "Finished"
+  },
+  "fabricLoader": {
+    "path": "runtime-work/game/libraries/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar",
+    "bytes": 1416842,
+    "sha256": "9ED7B7F4197153AD97D71B4B9CD9148989E8F0C600934B035CE45F3EF003EFC0",
+    "sha1": "05778D47F536BF2C63ED2ABC1A56F5A1C129E34A"
+  },
+  "onlineResourceBranches": {
+    "ModPack": {
+      "secondaryDelegate": "PCL.MyIconButton+ClickEventHandler",
+      "secondary": "Save_Click",
+      "primaryDelegate": "PCL.MyListItem+ClickEventHandler",
+      "primary": "Install_Click"
+    },
+    "executed": true,
+    "Mod": {
+      "secondary": null,
+      "primary": "Save_Click"
+    }
+  },
+  "limitations": [
+    "Used isolation reflection harness, no desktop click automation.",
+    "No Microsoft login or Minecraft game launch performed.",
+    "CF/Modrinth fixtures validate download and installation, not gameplay or mod dependencies.",
+    "User original installation untouched by these tests."
+  ],
+  "logs": [
+    "runtime-work/probe-vanilla.log",
+    "runtime-work/probe-packs.log",
+    "runtime-work/probe-cfpack.log",
+    "runtime-work/probe-online.log",
+    "runtime-work/probe-cfmeta.log"
+  ]
+}
