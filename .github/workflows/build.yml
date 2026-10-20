@@ -1,0 +1,26 @@
+name: Windows build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        shell: powershell
+        run: ./build.ps1
+      - name: Isolated installer tests
+        shell: powershell
+        run: ./test.ps1
+      - name: Startup notice checks
+        shell: powershell
+        run: ./tests/StartupNoticeTests.ps1
