@@ -26,6 +26,6 @@ Required original PCL SHA-256:
 
     6B6E1260CB5A1D6A303855F1C60CAB3D0BC1AEBBA7E40A964180188B271E7386
 
-43 transaction and 60 UI/startup checks plus real-engine regression passed. Six-method audit/runtime historical results and limits are in TEST-REPORT.md. No network downloads, login, gameplay or hosted CI were repeated in this rename/documentation pass.
+43 transaction and 60 UI/startup checks plus real-engine regression passed. Six-method audit/runtime historical results and limits are in TEST-REPORT.md. No network downloads, login or gameplay were repeated in this rename/documentation pass.
 
 **Unsigned: NotSigned.** Kuro_Miaow is not a Windows-verified publisher. Please purchase genuine Minecraft at https://www.minecraft.net/ . Keep upstream LICENCE/credit/sponsorship; do not bundle PCL/game/account data. Publication status is determined by the actual repository release.

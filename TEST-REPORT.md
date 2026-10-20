@@ -11,7 +11,7 @@ Public ProductVersion and UI: v1a. Internal AssemblyVersion/FileVersion: 1.0.3.0
 - Real production engine regression passed inspect/default install/reinstall, explicit lock, unlock by reinstall, restore/repeated restore, unknown official-update preservation and tamper rejection. Recovery returns the exact original bytes and preserves later unrelated settings.
 - PatchCore and the transaction engine are unchanged from internal 1.0.3; UI changes only identify the formal release. Patched PCL SHA-256 remains B3061C3E8D95520655045B535817FC524D319C1763C13036F2F903EC65998D05. The six-method audit found 6,339 methods, 6 changed and 6,333 semantically unchanged, with original resources/references preserved.
 - Final assistant EXE SHA-256: FFCAA53E99BE9DD56E74A8FB67ACCE66C79E14E3EBFE7DD03F710BEE72BF9AF3. Company Kuro_Miaow; unsigned/NotSigned. No certificate or system trust changes.
-- Forms are rendered off-screen; not every DPI/font combination or manual production click path is covered. Official-update protection uses a simulated replacement, not a future upstream update. No GitHub-hosted CI, upload, new network download, login or gameplay is claimed in this rename/documentation pass.
+- Forms are rendered off-screen; not every DPI/font combination or manual production click path is covered. Official-update protection uses a simulated replacement, not a future upstream update. No upload, new network download, login or gameplay is claimed in this rename/documentation pass.
 
 ## Historical internal checks — not formal release versions
 

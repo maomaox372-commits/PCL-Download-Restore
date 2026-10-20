@@ -26,6 +26,6 @@
 
     6B6E1260CB5A1D6A303855F1C60CAB3D0BC1AEBBA7E40A964180188B271E7386
 
-43 项事务、60 项界面/启动检查及真实引擎回归通过。六方法审计及历史运行时结果见 TEST-REPORT.zh-CN.md；本轮未重复联网下载、登录、游戏或 GitHub CI。
+43 项事务、60 项界面/启动检查及真实引擎回归通过。六方法审计及历史运行时结果见 TEST-REPORT.zh-CN.md；本轮未重复联网下载、登录或游戏。
 
 **本版未数字签名，NotSigned。** Kuro_Miaow 不是 Windows 已验证发布者。建议购买正版：https://www.minecraft.net/ 。保留上游许可、署名与赞助链接，不捆绑 PCL、游戏或账号。

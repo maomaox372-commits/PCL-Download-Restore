@@ -65,7 +65,7 @@
 
 ## 验证与开发
 
-最终检查与边界见[测试报告](TEST-REPORT.zh-CN.md)。历史隔离测试完成 Minecraft 1.20.1 及非空 Modrinth/CurseForge 包下载；本轮文档与改名不重复联网下载、登录、进入游戏或 GitHub CI。
+最终检查与边界见[测试报告](TEST-REPORT.zh-CN.md)。历史隔离测试完成 Minecraft 1.20.1 及非空 Modrinth/CurseForge 包下载；本轮文档与改名不重复联网下载、登录或进入游戏。
 
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./build.ps1
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./test.ps1

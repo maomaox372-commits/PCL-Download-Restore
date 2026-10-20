@@ -65,7 +65,7 @@ Recovery records bind to the original full path: **restore before moving or rena
 
 ## Validation and development
 
-The finalized checks and their limits are recorded in the [test report](TEST-REPORT.md). Earlier isolated tests downloaded Minecraft 1.20.1 and nonempty Modrinth/CurseForge fixtures. This rename/documentation pass does not repeat network downloads, login, gameplay or GitHub CI.
+The finalized checks and their limits are recorded in the [test report](TEST-REPORT.md). Earlier isolated tests downloaded Minecraft 1.20.1 and nonempty Modrinth/CurseForge fixtures. This rename/documentation pass does not repeat network downloads, login or gameplay.
 
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./build.ps1
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./test.ps1
